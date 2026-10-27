@@ -79,12 +79,6 @@ car = {
 cars = car.copy()
 print(cars)
 
-# get() se brand nikalo.
-# update() se RAM ko 16 karo.
-# pop() se color remove karo.
-# keys() se saari keys display karo.
-# Aakhir mein puri dictionary print karo.
-
 laptop = {
     "brand": "Dell",
     "RAM": 8,
