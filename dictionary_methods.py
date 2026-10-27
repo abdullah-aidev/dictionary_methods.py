@@ -79,6 +79,21 @@ car = {
 cars = car.copy()
 print(cars)
 
+#copy method
+cars = {
+    "brand" : "honda",
+    "model" : "civic",
+    'price' : 50000
+}
+
+car = cars.copy()
+print(car)
+
+cars.update({"price": 600000})
+print(cars)
+
+
+# updtate method
 laptop = {
     "brand": "Dell",
     "RAM": 8,
